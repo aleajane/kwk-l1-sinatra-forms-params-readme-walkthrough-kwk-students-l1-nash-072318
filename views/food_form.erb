@@ -2,14 +2,28 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Favorite Food</title>
+    <title>All About Eating</title>
   </head>
 
   <body>
-    <h1>Favorite Food</h1>
+    <h1>All About Eating</h1>
     <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwGoDVUDPLd8f_397Fp9BrLKlu-6msu0sSiT0LeEZQ8Ga2228z">
 
-    <!-- Insert Your Form Below -->
+
+<form method= "POST" action = "/food">
+  <p> What is your name? <input type = "text" name = "username"></p>
+  <p> What is your favorite food? <input type = "text" name ="food"></p>
+  <p> What is your favorite drink? <input type = "text"name = "drink"></p>
+  <p> What is your favorite ethnicty of food? <input type = "text" name = "ethnic"></p>
+  <p><input type="radio" name="preference" value="carnivore" checked>carnivore<br></p>
+  <p><input type="radio" name="preference" value="vegetarian"> vegetarian<br></p>
+  <p><input type="radio" name="preference" value="vegan"> vegan</p>
+
+
+  <input type = "submit" value = "CLICK HERE...OR ELSE!">
+</form>
+
+
 
   </body>
 </html>
